@@ -14,7 +14,6 @@ import PrivacyDropdownContainer from '../containers/privacy_dropdown_container';
 import SensitiveButtonContainer from '../containers/sensitive_button_container';
 import EmojiPickerDropdown from '../containers/emoji_picker_dropdown_container';
 import UploadFormContainer from '../containers/upload_form_container';
-import WarningContainer from '../containers/warning_container';
 import { isMobile } from '../../../is_mobile';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import { length } from 'stringz';
@@ -166,8 +165,6 @@ export default class ComposeForm extends ImmutablePureComponent {
             </label>
           </div>
         </Collapsable>
-
-        <WarningContainer />
 
         <ReplyIndicatorContainer />
 
